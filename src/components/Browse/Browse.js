@@ -16,7 +16,7 @@ const Browse = () => {
   useTopRated();
   usePopular();
   useIndianMovies();
-  useUpcoming();
+  useUpcoming(); 
   document.title ='Home - Netflix';
   const showGpt = useSelector(store => store.gpt.showGPT);
   
